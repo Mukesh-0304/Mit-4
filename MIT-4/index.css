@@ -1,0 +1,80 @@
+body{
+    margin: 0%;
+    padding: 0%;  
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+h2{
+    color: white;
+}
+.Flex-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    width: 90%;
+    padding: 2% 5%;
+    gap:20px;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+h1{
+    margin: 0%;
+}
+p{
+    margin: 0%;
+    color: gray;
+}
+input{
+    padding: 10px;
+    color: black;
+}
+.sub{
+    width: 80px;
+    background-color: blue;
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+.div-return{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    border:1px solid;
+    border-radius:10px;
+    width: 90%;
+    padding:  10px 30px;
+}
+.div-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.name-para{
+    color: black;
+}
+.name-para1{
+    color: darkgrey;
+}
+#div-del{
+    color: red;
+    padding: 5px;
+    border-color: red;
+    border-radius: 5px;
+    background-color: white;
+    outline: red;
+}
